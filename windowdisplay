@@ -1,0 +1,2 @@
+def windowDesign():
+    pygame.draw.line(win)
