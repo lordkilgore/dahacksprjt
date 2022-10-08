@@ -10,7 +10,7 @@ pygame.font.init()
 
 def windowdisplay():
     img = pygame.image.load('display.png')
-    win.blit(img, (0, screenDimension * 0.2))
+    win.blit(img, (0, screenDimension * 0.2)) #set coordinates
 
 def refresh():
     win.fill([255, 255, 255])
